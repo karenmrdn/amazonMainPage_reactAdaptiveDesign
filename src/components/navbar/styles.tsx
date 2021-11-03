@@ -17,8 +17,7 @@ export const Logo = styled.img`
   cursor: pointer;
 
   &:hover {
-    border: 1px solid #fff;
-    border-radius: 0.2em;
+    opacity: 0.8;
   }
 `;
 
@@ -36,11 +35,10 @@ export const Wrapper = styled(NavItemWrapper)`
   border: 1px solid #131a22;
 
   &:hover {
-    border: 1px solid #fff;
-    border-radius: 0.2em;
+    opacity: 0.8;
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 900px) {
     display: none;
   }
 `;
@@ -51,7 +49,7 @@ export const Searchbox = styled.input`
   width: 47%;
   border: none;
 
-  @media (max-width: 850px) {
+  @media (max-width: 900px) {
     border-radius: 0.2em;
     margin: 0.3em 0;
   }
@@ -65,7 +63,7 @@ export const Select = styled.select`
   border: none;
   cursor: pointer;
 
-  @media (max-width: 850px) {
+  @media (max-width: 900px) {
     display: none;
   }
 `;
@@ -83,7 +81,7 @@ export const SearchIconWrapper = styled.span`
     background-color: #f90;
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 900px) {
     display: none;
   }
 `;
